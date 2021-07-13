@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+    font-family: "Montserrat", sans-serif, arial;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+/* definir o tamanho da pagina html*/
+html{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/fundo.jpg");
+ background-color: #282828;
+}
+/*Definindo o corpo da pagina e contéudo e parte superior da pagina*/
+body{
+/*   
+Removendo para remover o ajuste da página que é feito no início da elaboração do site*/
+    /* height: 100%;  */
+    max-width: 1000px;
+/*    background-color:rgb(211, 206, 199);
+    padding-top: 40px;
+/*inserindo float: left devido a remoção do  height*/
+ /*   float: left;*/
+    margin: auto;
+}
+
+/*inserindo o content para ajuste das dimensões direita e esquerda da pagina*/
+.content{
+    background-color: black;
+    padding-top: 5px;
+    float: left;
+    padding-bottom: 5px;
+}
+h1{
+    font-family: Montserrat;
+ /* background-color:rgb(46, 69, 80);*/
+    font-weight: bold;
+ /*   font-size: 55px;*/
+}
+h2{
+    font-family: kollektif;
+/*    font-size: 25px;*/
+}
+
+
+/*criando o BANNER da página (cabeçalho)*/
+#banner{
+    background-color: rgb(46, 69, 80);
+    min-height: 340px;
+    background-image: url('../images/imagem.jpg');
+    background-size: 100%;
+    background-position-y: 52%;
+}
+/*Criando COLUNA abaixo do Banner*/
+#col-esquerda{
+ /* font-size: 18px;*/
+    float:left;
+    width: 38%;
+	height: 2500px;
+	/* min-height: 1000px;*/
+    background-color:linen;
+}
+#col-direita{
+  /*  font-size: 18px;*/
+    float:left;
+    width: 62%;
+	height: 2500px;
+ /* min-height: 1000px;*/
+    background-color:rgb(211, 206, 199);
+}
+
+#reader{
+    float:left;
+    min-height: 1000px;
+    background-color:#eb1b1b;
+
+}
+/*Criando a imagem e dimensões e arredondando border-radius*/
+#banner .avatar{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+
+
+/*Posicionando e centralizando o texto nome*/
+#nome{
+    float:right;
+    width: 63%;
+    font-size: 18px;
+    margin-top: 90px;
+    background-color: rgb(55,89,111,0.7);
+    color:rgb(228, 222, 222);
+    
+}
+#nome *{
+    margin-bottom: 30px;
+}
+
+
+/*Definindo margens do curriculo areas*/
+.area{
+    margin: 50px 25px;
+    color: #121313
+}
+/*inserindo Caixa alta nos títulos e espaçando os caracteres*/
+.area .titulo {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+
+}
+.area p{
+    padding-bottom: 15px;
+}
+
+.area i{
+    margin-right: 5px;
+    color: rgb(46, 69, 80);
+}
+/* Definindo a área disitancia entre titulo e traço dos titulos*/
+.area hr{
+    border: 3px solid #535657;
+    margin: 10px 0;
+    width: 70px;
+}
+
+.area ul{
+    margin: 15px
+}
+
+.area h3{
+    color: rgb(46, 69, 80);
+    font-family: kollektif;
+}
+
+.area h4{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.area li{
+    padding: 3px;
+}
+
+/*Alinhar a página conforme a dimensão de visuação entre celulares e notebooks em apresentação - lauout responsivo*/
+@media screen and (max-width: 1000px){
+    .left, .main, .right{
+        width: 100%;
+    }  
+}
+@media screen and (max-width: 1000px){
+    #banner, #col-esquerda, #col-direita{
+        width: 100%;
+    }
+    #nome {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        background-color: transparent;
+    }
+    #foto {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    #foto .avatar{
+        float: none;
+    }
+}
+
+
+
+        
