@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 *{
     font-family: "Montserrat", sans-serif, arial;
     font-weight: 300;
@@ -63,16 +63,14 @@ h2{
 #col-esquerda{
  /* font-size: 18px;*/
     float:left;
-    width: 38%;
-	height: 2500px;
+    width: 39%;
 	/* min-height: 1000px;*/
     background-color:linen;
 }
 #col-direita{
   /*  font-size: 18px;*/
     float:left;
-    width: 62%;
-	height: 2500px;
+    width: 61%;
  /* min-height: 1000px;*/
     background-color:rgb(211, 206, 199);
 }
