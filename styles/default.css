@@ -1,6 +1,6 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+﻿/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');*/
 *{
-    font-family: "Montserrat", sans-serif, arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     padding: 0;
     margin: 0;
@@ -40,7 +40,7 @@ Removendo para remover o ajuste da página que é feito no início da elaboraç�
     padding-bottom: 5px;
 }
 h1{
-    font-family: Montserrat;
+    font-family: Arial, Helvetica, sans-serif;
  /* background-color:rgb(46, 69, 80);*/
     font-weight: bold;
  /*   font-size: 55px;*/
