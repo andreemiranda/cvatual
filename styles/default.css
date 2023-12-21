@@ -24,13 +24,14 @@ body{
 /*   
 Removendo para remover o ajuste da página que é feito no início da elaboração do site*/
     /* height: 100%;  */
-    max-width: 1000px;
+    max-width: 1200px;
 /*    background-color:rgb(211, 206, 199);
     padding-top: 40px;
 /*inserindo float: left devido a remoção do  height*/
  /*   float: left;*/
-    margin: auto;
-}
+    position: relative;
+   margin: 0 auto;
+   }
 
 /*inserindo o content para ajuste das dimensões direita e esquerda da pagina*/
 .content{
@@ -47,6 +48,16 @@ h1{
 }
 h2{
     font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	text-align: left;
+	font-size: 28px;
+/*    font-size: 25px;*/
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	text-align: center;
+	font-size: 28px;
 /*    font-size: 25px;*/
 }
 
@@ -57,20 +68,20 @@ h2{
     min-height: 340px;
     background-image: url('../images/imagem.jpg');
     background-size: 100%;
-    background-position-y: 52%;
+    background-position-y: 50%;
 }
 /*Criando COLUNA abaixo do Banner*/
 #col-esquerda{
  /* font-size: 18px;*/
     float:left;
-    width: 39%;
+    width: 41%;
 	/* min-height: 1000px;*/
     background-color:linen;
 }
 #col-direita{
   /*  font-size: 18px;*/
     float:left;
-    width: 61%;
+    width: 59%;
  /* min-height: 1000px;*/
     background-color:rgb(211, 206, 199);
 }
