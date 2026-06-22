@@ -1,14 +1,15 @@
-﻿<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carlos André Rocha Miranda</title>
-    <link rel="stylesheet" href="styles/default.css">
-	<link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://wondrous-yeot-1db289.netlify.app/styles/default.css">
+	<link rel="shortcut icon" href="https://wondrous-yeot-1db289.netlify.app/images/favicon.ico">
 <!-- Inserindo as Fontes baixadas em FontAwesome-->
-    <link rel="stylesheet" href="styles/faicons/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://wondrous-yeot-1db289.netlify.app/styles/faicons/css/font-awesome.min.css"> 
 <!--
     <div class="header">
         <a href="#default" class="logo">CompanyLogo</a>
@@ -27,7 +28,7 @@
         <div  id="banner" class="">
             
 <!-- INSERINDO IMAGEM NO SITE -->
-            <img src="images/avatar.jpg"  class="avatar">
+            <img src="https://wondrous-yeot-1db289.netlify.app/images/avatar.jpg"  class="avatar">
 <!--criando uma DIV para o nome-->
             <div id="nome">
                 <h1>CARLOS ANDRE ROCHA MIRANDA</h1>
@@ -56,11 +57,11 @@
 <h2 class="titulo">Redes Sociais</h2><hr><br>  
                <nav id="menu">
     <ul>
-        <a href="https://www.facebook.com/andrehmiranda" target="_blank"><img class="link_thumb" src="./images/facebook.png" title="facebook"></a>
-        <a href="https://www.instagram.com/andremiranda04" target="_blank"><img class="link_thumb" src="./images/instagram.png" title="instagram"></a>
-        <a href="https://www.linkedin.com/in/andremiranda2014" target="_blank"><img class="link_thumb" src="./images/linkedin.png" title="linkedin"></a>
-		<a href="https://twitter.com/andremirandaa" target="_blank"><img class="link_thumb" src="./images/twitter.png" title="twitter"></a>
-		<a href="https://goo.gl/hjjrzW" target="_blank"><img class="link_thumb" src="./images/whatsapp.png" title="whatsapp"></a>
+        <a href="https://www.facebook.com/andrehmiranda" target="_blank"><img class="link_thumb" src="https://wondrous-yeot-1db289.netlify.app/images/facebook.png" title="facebook"></a>
+        <a href="https://www.instagram.com/andremiranda04" target="_blank"><img class="link_thumb" src="https://wondrous-yeot-1db289.netlify.app/images/instagram.png" title="instagram"></a>
+        <a href="https://www.linkedin.com/in/andremiranda2014" target="_blank"><img class="link_thumb" src="https://wondrous-yeot-1db289.netlify.app/images/linkedin.png" title="linkedin"></a>
+		<a href="https://twitter.com/andremirandaa" target="_blank"><img class="link_thumb" src="https://wondrous-yeot-1db289.netlify.app/images/twitter.png" title="twitter"></a>
+		<a href="https://goo.gl/hjjrzW" target="_blank"><img class="link_thumb" src="https://wondrous-yeot-1db289.netlify.app/images/whatsapp.png" title="whatsapp"></a>
     </ul>
 </nav>
                     </p>
@@ -146,5 +147,271 @@ e entregar os materiais mediante requisições autorizadas.<br>
     </div>
     </div>
 </div>
+<style>
+/* ══════════════════════════════════════════════════
+   RODAPÉ — horizontal fixo, menus verticais
+   ══════════════════════════════════════════════════ */
+
+#rodape {
+    background-color: #282828;
+    color: rgb(228, 222, 222);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    border-top: 4px solid rgb(46, 69, 80);
+    width: 100%;
+    box-sizing: border-box;
+    clear: both;
+}
+
+/* GRADE HORIZONTAL — display:table força as 3 colunas
+   sempre lado a lado, sem quebrar para baixo */
+#rodape .rodape-grid {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+/* ──────────────────────────────────────────────
+   COLUNA 1
+   ────────────────────────────────────────────── */
+#rodape .col1 {
+    display: table-cell;             /* HORIZONTAL */
+    vertical-align: top;
+    width: 33%;                      /* ← largura col 1 */
+    padding: 28px 25px;
+    box-sizing: border-box;
+    background-color: #3a3024;       /* ← fundo col 1 */
+    border-right: 1px solid #535657;
+}
+
+#rodape .col1 h3 {
+    color: rgb(46, 69, 80);          /* ← cor título col 1 */
+}
+
+#rodape .col1 ul li a {
+    color: rgb(228, 222, 222);       /* ← cor links col 1 */
+}
+
+#rodape .col1 ul li a::before {
+    color: rgb(46, 69, 80);          /* ← cor seta col 1 */
+}
+
+#rodape .col1 ul li a:hover {
+    color: rgb(46, 69, 80);          /* ← hover col 1 */
+}
+
+/* ──────────────────────────────────────────────
+   COLUNA 2
+   ────────────────────────────────────────────── */
+#rodape .col2 {
+    display: table-cell;             /* HORIZONTAL */
+    vertical-align: top;
+    width: 33%;                      /* ← largura col 2 */
+    padding: 28px 25px;
+    box-sizing: border-box;
+    background-color: #2e2e2e;       /* ← fundo col 2 */
+    border-right: 1px solid #535657;
+}
+
+#rodape .col2 h3 {
+    color: rgb(211, 206, 199);       /* ← cor título col 2 */
+}
+
+#rodape .col2 ul li a {
+    color: rgb(211, 206, 199);       /* ← cor links col 2 */
+}
+
+#rodape .col2 ul li a::before {
+    color: #535657;                  /* ← cor seta col 2 */
+}
+
+#rodape .col2 ul li a:hover {
+    color: rgb(228, 222, 222);       /* ← hover col 2 */
+}
+
+/* ──────────────────────────────────────────────
+   COLUNA 3
+   ────────────────────────────────────────────── */
+#rodape .col3 {
+    display: table-cell;             /* HORIZONTAL */
+    vertical-align: top;
+    width: 34%;                      /* ← largura col 3 */
+    padding: 28px 25px;
+    box-sizing: border-box;
+    background-color: #38312b;       /* ← fundo col 3 */
+}
+
+#rodape .col3 h3 {
+    color: rgb(228, 222, 222);       /* ← cor título col 3 */
+}
+
+#rodape .col3 ul li a {
+    color: rgb(211, 206, 199);       /* ← cor links col 3 */
+}
+
+#rodape .col3 ul li a::before {
+    color: rgb(228, 222, 222);       /* ← cor seta col 3 */
+}
+
+#rodape .col3 ul li a:hover {
+    color: linen;                    /* ← hover col 3 */
+}
+
+/* ── TÍTULO de cada coluna ── */
+#rodape h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: left;
+    margin: 0 0 12px 0;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #535657;
+}
+
+/* ── LISTA VERTICAL dentro de cada coluna ── */
+#rodape ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;                  /* lista em coluna vertical */
+}
+
+#rodape ul li {
+    display: block;                  /* cada item em linha própria */
+    padding: 3px 0;
+    margin-bottom: 6px;
+}
+
+#rodape ul li a {
+    text-decoration: none;
+    font-size: 0.88rem;
+    display: block;
+    transition: color 0.25s, padding-left 0.25s;
+}
+
+#rodape ul li a::before {
+    content: "➯ ";
+    font-size: 0.78rem;
+}
+
+#rodape ul li a:hover {
+    padding-left: 6px;
+}
+
+/* ── COPYRIGHT ── */
+#rodape .rodape-bottom {
+    display: block;
+    border-top: 3px solid #535657;
+    padding: 14px 25px;
+    text-align: center;
+    font-size: 0.80rem;
+    color: #535657;
+    background-color: #1e1e1e;
+    clear: both;
+}
+
+#rodape .rodape-bottom span {
+    color: rgb(46, 69, 80);
+}
+</style>
+<style>
+/* ── ZOOM NAS IMAGENS ──────────────────────────
+ 
+   Aplica a TODAS as imagens da página.
+   Se quiser limitar a um grupo específico,
+   troque "img" pelo seletor desejado,
+   por exemplo: ".avatar", ".link_thumb", etc.
+   ─────────────────────────────────────────── */
+ 
+img {
+    /* Garante que o zoom não "vaze" para fora */
+    display: inline-block;
+    overflow: hidden;
+ 
+    /* Transição suave: 0.35s — aumente para mais lento, diminua para mais rápido */
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+ 
+    /* Deixa o cursor virar uma lupa ao passar o mouse */
+    cursor: pointer;
+}
+ 
+img:hover {
+    /* Zoom de 20% — ajuste o valor: 1.1 = 10%, 1.3 = 30%, etc. */
+    transform: scale(1.2);
+ 
+    /* Sombra suave para destacar a imagem durante o zoom */
+    box-shadow: 0 8px 24px rgba(0, 180, 216, 0.45);
+}
+ 
+/* ── AVATAR (foto de perfil) ───────────────────
+   Zoom um pouco mais suave para a foto principal */
+.avatar {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+ 
+.avatar:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 30px rgba(0, 180, 216, 0.55);
+}
+ 
+/* ── ÍCONES DE REDES SOCIAIS (.link_thumb) ─────
+   Zoom mais pronunciado para os botões pequenos */
+.link_thumb {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+ 
+.link_thumb:hover {
+    transform: scale(1.35);
+    box-shadow: 0 6px 18px rgba(0, 180, 216, 0.5);
+}
+</style>
+<footer id="rodape">
+    <div class="rodape-grid">
+
+        <div class="col1">
+            <h3>Coluna 1</h3>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+                <li><a href="#">Link 6</a></li>
+            </ul>
+        </div>
+
+        <div class="col2">
+            <h3>Coluna 2</h3>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+                <li><a href="#">Link 6</a></li>
+            </ul>
+        </div>
+
+        <div class="col3">
+            <h3>Coluna 3</h3>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+                <li><a href="#">Link 6</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="rodape-bottom">
+        &copy; 2026 <span>Carlos André Rocha Miranda</span> - Todos os direitos reservados.
+    </div>
+</footer>
 </body>
 </html>
